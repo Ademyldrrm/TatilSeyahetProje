@@ -44,6 +44,6 @@ Bu README dosyası, projenizin temel işlevselliğini ve nasıl kullanılacağı
 
 İyi çalışmalar!
 
-## Prpjenin Amacı
+## Projenin Amacı
 Bu proje, tatil tutkunları için özelleştirilmiş bir web platformudur. Kullanıcılar tatil seyahatleri hakkında yazılarını paylaşabilir, diğer tatil severlerin deneyimlerini inceleyebilir ve yorumlarla etkileşimde bulunabilirler. Ayrıca, en son tatil yerlerini keşfetmek için ana sayfayı kullanabilirler. Oturum açma ve yetkilendirme işlevleri sayesinde, kullanıcılar içeriklerini güvenli bir şekilde yönetebilirler.
 

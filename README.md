@@ -19,6 +19,28 @@ Proje aşağıdaki teknolojileri içerir:
 - Authorization
 
 ## Özellikler
+atil Seyahat Projesi, tatil seyahatleri ile ilgili blogları yayınlamak, bu bloglara yorum yapmak ve kullanıcıları oturum açmaları için yetkilendirmek için tasarlanmış bir web uygulamasıdır. Projede aşağıdaki temel özellikler bulunmaktadır:
+
+Bloglar: Kullanıcılar tatil seyahatleri ile ilgili bloglarını paylaşabilirler.
+Detay Sayfası: Her blog için ayrıntılı bir detay sayfası bulunmaktadır. Bu sayfada blogun içeriği görüntülenebilir ve kullanıcılar yorum yapabilirler.
+Ana Sayfa: Ana sayfa, en son blogları ve en beğenilen tatil yerlerini gösterir.
+Oturum Açma ve Yetkilendirme: Proje, kullanıcıları oturum açmaları ve belirli işlemleri yapabilmeleri için ASP.NET MVC'nin oturum açma ve yetkilendirme özelliklerini kullanır.
+Auto-heritşon: Yetkilendirme için Auto-heritşon (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
+Projeyi Çalıştırma
+Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+Bu projeyi klonlayın veya indirin.
+
+Visual Studio (veya tercih ettiğiniz bir IDE) kullanarak projeyi açın.
+
+Veritabanını oluşturmak için Package Manager Console'ı kullanarak Migration'ları çalıştırın:
+
+mathematica
+Copy code
+Update-Database
+Projeyi başlatın ve tarayıcınızda http://localhost:port adresine gidin (port numarasını projenizin çalıştığı portla değiştirin).
+
+
 
 Projenin temel özellikleri şunlardır:
 
@@ -29,9 +51,18 @@ Projenin temel özellikleri şunlardır:
 ![Ekran görüntüsü 2023-10-07 112729](https://github.com/Ademyldrrm/TatilSeyahetProje/assets/92265631/8c6e8271-f984-49c5-86d3-d59e71029f05)
 ![Ekran görüntüsü 2023-10-07 112623](https://github.com/Ademyldrrm/TatilSeyahetProje/assets/92265631/211a1aa9-1206-4da8-9845-25035675d2b0)
 
+Kullanım
+Proje başarıyla çalıştığında, aşağıdaki temel işlemleri gerçekleştirebilirsiniz:
 
+Blog Eklemek: Oturum açtıktan sonra "Blog Ekle" seçeneğiyle yeni bir blog ekleyebilirsiniz.
+
+Blogları Görüntülemek: Ana sayfa üzerinden en son blogları ve en beğenilen tatil yerlerini görebilirsiniz. Ayrıca blogların detay sayfalarına giderek içeriği ve yorumları gözden geçirebilirsiniz.
+
+Yorum Yapmak: Blogların detay sayfalarında yorum yapabilirsiniz.
+
+Bu README dosyası, projenizin temel işlevselliğini ve nasıl kullanılacağını anlatmak için bir başlangıç ​​noktasıdır. İhtiyaca göre daha fazla ayrıntı ve talimat ekleyebilirsiniz.
+
+İyi çalışmalar!
 
 ## Prpjenin Amacı
-50DerseMvc, bir web tabanlı uygulama geliştirmeniz için kullanabileceğiniz bir şablondur. Bu projenin amacı, temel ürün, müşteri ve kategori yönetimi işlevlerini içeren bir MVC uygulaması oluşturmaktır. Ayrıca, satış işlemleri kaydetmek ve bu işlemleri yönetmek için kullanabileceğiniz bir arayüz sağlar.
 
-Bu projenin temel özellikleri, ürünlerin, müşterilerin ve kategorilerin eklenmesi, güncellenmesi ve silinmesi ile ilgilidir. Ayrıca, bu bilgilere kolayca erişim sağlamak için arama ve listeleme işlevselliği 

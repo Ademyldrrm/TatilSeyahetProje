@@ -32,13 +32,13 @@ Proje aşağıdaki teknolojileri içerir:
 ![Ekran görüntüsü 2023-10-07 112623](https://github.com/Ademyldrrm/TatilSeyahetProje/assets/92265631/211a1aa9-1206-4da8-9845-25035675d2b0)
 
 ##Kullanım
-Proje başarıyla çalıştığında, aşağıdaki temel işlemleri gerçekleştirebilirsiniz:
+- Proje başarıyla çalıştığında, aşağıdaki temel işlemleri gerçekleştirebilirsiniz:
 
-Blog Eklemek: Oturum açtıktan sonra "Blog Ekle" seçeneğiyle yeni bir blog ekleyebilirsiniz.
+- Blog Eklemek: Oturum açtıktan sonra "Blog Ekle" seçeneğiyle yeni bir blog ekleyebilirsiniz.
 
-Blogları Görüntülemek: Ana sayfa üzerinden en son blogları ve en beğenilen tatil yerlerini görebilirsiniz. Ayrıca blogların detay sayfalarına giderek içeriği ve yorumları gözden geçirebilirsiniz.
+- Blogları Görüntülemek: Ana sayfa üzerinden en son blogları ve en beğenilen tatil yerlerini görebilirsiniz. Ayrıca blogların detay sayfalarına giderek içeriği ve yorumları gözden geçirebilirsiniz.
 
-Yorum Yapmak: Blogların detay sayfalarında yorum yapabilirsiniz.
+- Yorum Yapmak: Blogların detay sayfalarında yorum yapabilirsiniz.
 
 Bu README dosyası, projenizin temel işlevselliğini ve nasıl kullanılacağını anlatmak için bir başlangıç ​​noktasıdır. İhtiyaca göre daha fazla ayrıntı ve talimat ekleyebilirsiniz.
 

@@ -1,6 +1,12 @@
 #50DERSTETATİLSEYAHAT
 
-50DerseMvc, bir MVC (Model-View-Controller) mimarisine dayalı bir web uygulamasıdır ve ürün, müşteri ve kategori yönetimi gibi temel işlevselliğe sahiptir. Ayrıca, satış işlemleri için bir popup penceresi sunar, kullanıcıların ürünleri ve müşterileri aramasını sağlayan bir arama çubuğu içerir ve sayfalama işlemi için jQuery ve paging kullanır.
+Tatil Seyahat Projesi, tatil seyahatleri ile ilgili blogları yayınlamak, bu bloglara yorum yapmak ve kullanıcıları oturum açmaları için yetkilendirmek için tasarlanmış bir web uygulamasıdır. Projede aşağıdaki temel özellikler bulunmaktadır:
+
+Bloglar: Kullanıcılar tatil seyahatleri ile ilgili bloglarını paylaşabilirler.
+Detay Sayfası: Her blog için ayrıntılı bir detay sayfası bulunmaktadır. Bu sayfada blogun içeriği görüntülenebilir ve kullanıcılar yorum yapabilirler.
+Ana Sayfa: Ana sayfa, en son blogları ve en beğenilen tatil yerlerini gösterir.
+Oturum Açma ve Yetkilendirme: Proje, kullanıcıları oturum açmaları ve belirli işlemleri yapabilmeleri için ASP.NET MVC'nin oturum açma ve yetkilendirme özelliklerini kullanır.
+Auto-heritşon: Yetkilendirme için Auto-heritşon (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
 
 ## Teknolojiler
 
@@ -17,32 +23,6 @@ Proje aşağıdaki teknolojileri içerir:
 - DataTable
 - logOut
 - Authorization
-
-## Özellikler
-atil Seyahat Projesi, tatil seyahatleri ile ilgili blogları yayınlamak, bu bloglara yorum yapmak ve kullanıcıları oturum açmaları için yetkilendirmek için tasarlanmış bir web uygulamasıdır. Projede aşağıdaki temel özellikler bulunmaktadır:
-
-Bloglar: Kullanıcılar tatil seyahatleri ile ilgili bloglarını paylaşabilirler.
-Detay Sayfası: Her blog için ayrıntılı bir detay sayfası bulunmaktadır. Bu sayfada blogun içeriği görüntülenebilir ve kullanıcılar yorum yapabilirler.
-Ana Sayfa: Ana sayfa, en son blogları ve en beğenilen tatil yerlerini gösterir.
-Oturum Açma ve Yetkilendirme: Proje, kullanıcıları oturum açmaları ve belirli işlemleri yapabilmeleri için ASP.NET MVC'nin oturum açma ve yetkilendirme özelliklerini kullanır.
-Auto-heritşon: Yetkilendirme için Auto-heritşon (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
-Projeyi Çalıştırma
-Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-Bu projeyi klonlayın veya indirin.
-
-Visual Studio (veya tercih ettiğiniz bir IDE) kullanarak projeyi açın.
-
-Veritabanını oluşturmak için Package Manager Console'ı kullanarak Migration'ları çalıştırın:
-
-mathematica
-Copy code
-Update-Database
-Projeyi başlatın ve tarayıcınızda http://localhost:port adresine gidin (port numarasını projenizin çalıştığı portla değiştirin).
-
-
-
-Projenin temel özellikleri şunlardır:
 
 
 ## Ekran Görüntüleri

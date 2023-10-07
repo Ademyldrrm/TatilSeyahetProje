@@ -6,7 +6,7 @@ Bloglar: Kullanıcılar tatil seyahatleri ile ilgili bloglarını paylaşabilirl
 Detay Sayfası: Her blog için ayrıntılı bir detay sayfası bulunmaktadır. Bu sayfada blogun içeriği görüntülenebilir ve kullanıcılar yorum yapabilirler.
 Ana Sayfa: Ana sayfa, en son blogları ve en beğenilen tatil yerlerini gösterir.
 Oturum Açma ve Yetkilendirme: Proje, kullanıcıları oturum açmaları ve belirli işlemleri yapabilmeleri için ASP.NET MVC'nin oturum açma ve yetkilendirme özelliklerini kullanır.
-Auto-heritşon: Yetkilendirme için Auto-heritşon (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
+authorization: Yetkilendirme için authorization (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
 
 ## Teknolojiler
 
@@ -45,4 +45,5 @@ Bu README dosyası, projenizin temel işlevselliğini ve nasıl kullanılacağı
 İyi çalışmalar!
 
 ## Prpjenin Amacı
+Bu proje, tatil tutkunları için özelleştirilmiş bir web platformudur. Kullanıcılar tatil seyahatleri hakkında yazılarını paylaşabilir, diğer tatil severlerin deneyimlerini inceleyebilir ve yorumlarla etkileşimde bulunabilirler. Ayrıca, en son tatil yerlerini keşfetmek için ana sayfayı kullanabilirler. Oturum açma ve yetkilendirme işlevleri sayesinde, kullanıcılar içeriklerini güvenli bir şekilde yönetebilirler.
 

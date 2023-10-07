@@ -1,0 +1,25 @@
+﻿@model TatilSeyehatProje.Models.Entities.Comment
+@{
+    ViewBag.Title = "CommentUpdate";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yorum Güncelle Sayfası</h2>
+<br />
+@using (Html.BeginForm("CommentUpdate", "Comment", FormMethod.Post))
+{
+    <label> ID</label>
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readonly" })
+    <br />
+    <label> Kullanıcı Adı</label>
+    @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+    <br />
+    <label>Mail</label>
+    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+    <br />
+    <label>Yorum</label>
+    @Html.TextAreaFor(x => x.Comments, 15, 1, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Yorum Güncelle</button>
+}
+

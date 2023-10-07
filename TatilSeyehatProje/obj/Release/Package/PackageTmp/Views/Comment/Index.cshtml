@@ -1,0 +1,41 @@
+﻿@using TatilSeyehatProje.Models.Entities
+@model List<Comment>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Blog Listesi</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Kullanıcı Adı</th>
+        <th>Kullanıcı Mail</th>
+        <th>Blog</th>
+        <th>Blog Yorum</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.UserName</td>
+            <td>@item.Mail</td>
+            <td>@item.Blog.Title</td>
+            <td>@item.Comments</td>
+            <td><a href="/Comment/DeleteComment/@item.ID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Comment/CommentUpdate/@item.ID" class="btn btn-warning">Güncelle</a></td>
+            <td><a href="" class="btn btn-success">Detaylar</a></td>
+        </tr>
+
+    }
+
+
+</table>
+<a href="/Comment/AddComment" class="btn btn-primary">Yeni Blog Ekle</a>
+
+

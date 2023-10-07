@@ -2,11 +2,11 @@
 
 Tatil Seyahat Projesi, tatil seyahatleri ile ilgili blogları yayınlamak, bu bloglara yorum yapmak ve kullanıcıları oturum açmaları için yetkilendirmek için tasarlanmış bir web uygulamasıdır. Projede aşağıdaki temel özellikler bulunmaktadır:
 
-Bloglar: Kullanıcılar tatil seyahatleri ile ilgili bloglarını paylaşabilirler.
-Detay Sayfası: Her blog için ayrıntılı bir detay sayfası bulunmaktadır. Bu sayfada blogun içeriği görüntülenebilir ve kullanıcılar yorum yapabilirler.
-Ana Sayfa: Ana sayfa, en son blogları ve en beğenilen tatil yerlerini gösterir.
-Oturum Açma ve Yetkilendirme: Proje, kullanıcıları oturum açmaları ve belirli işlemleri yapabilmeleri için ASP.NET MVC'nin oturum açma ve yetkilendirme özelliklerini kullanır.
-authorization: Yetkilendirme için authorization (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
+- Bloglar: Kullanıcılar tatil seyahatleri ile ilgili bloglarını paylaşabilirler.
+- Detay Sayfası: Her blog için ayrıntılı bir detay sayfası bulunmaktadır. Bu sayfada blogun içeriği görüntülenebilir ve kullanıcılar yorum yapabilirler.
+- Ana Sayfa: Ana sayfa, en son blogları ve en beğenilen tatil yerlerini gösterir.
+- Oturum Açma ve Yetkilendirme: Proje, kullanıcıları oturum açmaları ve belirli işlemleri yapabilmeleri için ASP.NET MVC'nin oturum açma ve yetkilendirme özelliklerini kullanır.
+- authorization: Yetkilendirme için authorization (veya başka bir yetkilendirme yöntemi) kullanılmıştır.
 
 ## Teknolojiler
 

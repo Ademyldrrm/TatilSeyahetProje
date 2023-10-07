@@ -31,7 +31,7 @@ Proje aşağıdaki teknolojileri içerir:
 ![Ekran görüntüsü 2023-10-07 112729](https://github.com/Ademyldrrm/TatilSeyahetProje/assets/92265631/8c6e8271-f984-49c5-86d3-d59e71029f05)
 ![Ekran görüntüsü 2023-10-07 112623](https://github.com/Ademyldrrm/TatilSeyahetProje/assets/92265631/211a1aa9-1206-4da8-9845-25035675d2b0)
 
-Kullanım
+##Kullanım
 Proje başarıyla çalıştığında, aşağıdaki temel işlemleri gerçekleştirebilirsiniz:
 
 Blog Eklemek: Oturum açtıktan sonra "Blog Ekle" seçeneğiyle yeni bir blog ekleyebilirsiniz.
